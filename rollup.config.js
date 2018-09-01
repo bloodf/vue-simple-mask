@@ -13,7 +13,7 @@ import { minify } from "uglify-es";
 
 import pack from "./package.json";
 
-const projectName = "vue-input-mask";
+const projectName = "vue-simple-mask";
 
 // compute globals from dependencies
 const globals =

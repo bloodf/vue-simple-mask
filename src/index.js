@@ -7,7 +7,7 @@ const LibraryModule = {
 
   install(Vue) {
     // Register components with vue
-    Vue.component("vue-input-mask", InputMask);
+    Vue.component("vue-simple-mask", InputMask);
     Vue.directive("mask", mask);
   }
 };

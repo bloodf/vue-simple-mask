@@ -1,6 +1,6 @@
 <!--
 Please make sure to read the Pull Request Guidelines:
-https://github.com/https://github.com/bloodf/vue-input-mask.git/.github/CONTRIBUTING.md#pull-request-guidelines
+https://github.com/https://github.com/bloodf/vue-simple-mask.git/.github/CONTRIBUTING.md#pull-request-guidelines
 -->
 
 <!-- PULL REQUEST TEMPLATE -->
