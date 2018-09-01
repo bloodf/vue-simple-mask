@@ -21,69 +21,6 @@ vue-input-mask can be used as a module in both CommonJS and ES modular environme
 
 When in non-modular environment, vue-input-mask will register all the components to vue by itself.</p>
 
-### ES6
-```js
-//
-// You can register a component manually
-//
-import { HelloWorld } from 'vue-input-mask';
-
-export default {
-  ...
-  components: {
-    HelloWorld
-  },
-  ...
-};
-
-//
-// or register the whole module with vue
-//
-import ModuleLibrary from 'vue-input-mask';
-
-// Install this library
-Vue.use(ModuleLibrary);
-```
-
-### CommonJS
-```js
-//
-// You can register a component manually
-//
-var Vue = require('vue');
-var ModuleLibrary = require('vue-input-mask');
-
-var YourComponent = Vue.extend({
-  ...
-  components: {
-    'hello-world': ModuleLibrary.HelloWorld
-  },
-  ...
-});
-
-//
-// or register the whole module with vue
-//
-var Vue = require('vue');
-var ModuleLibrary = require('vue-input-mask');
-
-// Install this library
-Vue.use(ModuleLibrary);
-```
-
-### Browser
-
-```html
-<script src="path/to/vue/vue.min.js"></script>
-<script src="path/to/vue-input-mask/dist/vue-input-mask.min.js"></script>
-<!-- Components are registered globally -->
-```
-
-### After that, you can use it in your templates:
-
-```html
-<hello-world></hello-world>
-```
 
 ## Changelog
 
